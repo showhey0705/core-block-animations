@@ -1,0 +1,87 @@
+# Copyright (C) 2024 Core Block Animations
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Core Block Animations 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/core-block-animations\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: core-block-animations\n"
+
+#. translators: Panel title
+msgid "Animation"
+msgstr ""
+
+#. translators: Toggle control label
+msgid "Enable Animation"
+msgstr ""
+
+#. translators: Help text when animation is enabled
+msgid "Animation will play when the block enters the viewport."
+msgstr ""
+
+#. translators: Help text when animation is disabled
+msgid "Enable to add entrance animation to this block."
+msgstr ""
+
+#. translators: Select control label
+msgid "Animation Type"
+msgstr ""
+
+#. translators: Help text for animation type
+msgid "Choose how the block animates into view."
+msgstr ""
+
+#. translators: Animation type option
+msgid "Fade"
+msgstr ""
+
+#. translators: Animation type option
+msgid "Slide Up"
+msgstr ""
+
+#. translators: Animation type option
+msgid "Slide Left"
+msgstr ""
+
+#. translators: Animation type option
+msgid "Zoom In"
+msgstr ""
+
+#. translators: Animation type option
+msgid "Rotate In"
+msgstr ""
+
+#. translators: Range control label
+msgid "Duration (ms)"
+msgstr ""
+
+#. translators: Help text for duration
+msgid "How long the animation takes to complete."
+msgstr ""
+
+#. translators: Range control label
+msgid "Delay (ms)"
+msgstr ""
+
+#. translators: Help text for delay
+msgid "Wait time before the animation starts."
+msgstr ""
+
+#. translators: Select control label
+msgid "Easing"
+msgstr ""
+
+#. translators: Help text for easing
+msgid "The timing function for the animation."
+msgstr ""
+
+#. translators: Toolbar button label
+msgid "Toggle Animation"
+msgstr ""

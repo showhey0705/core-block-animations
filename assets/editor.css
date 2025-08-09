@@ -1,0 +1,17 @@
+/*!
+ * Core Block Animations - Editor Styles (No Layout Impact)
+ * @package CoreBlockAnimations
+ * @license GPL-2.0-or-later
+ */
+
+/* Minimal styles - toolbar and panel only */
+.components-toolbar .components-button.is-pressed[aria-label*=Animation] {
+    background-color: rgba(0,124,186,.2);
+    color: #007cba;
+}
+
+.components-panel__body-title .animation-status-indicator {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 12px;
+}

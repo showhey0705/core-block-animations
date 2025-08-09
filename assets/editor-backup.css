@@ -1,0 +1,36 @@
+/*!
+ * Core Block Animations - Editor Styles (Minimal Layout Impact)
+ * @package CoreBlockAnimations
+ * @license GPL-2.0-or-later
+ */
+
+/* Toolbar animation button active state */
+.components-toolbar .components-button.is-pressed[aria-label*=Animation] {
+    background-color: rgba(0,124,186,.2);
+    color: #007cba;
+}
+
+.components-toolbar .components-button[aria-label*=Animation] .dashicons {
+    color: inherit;
+}
+
+/* Panel animation status indicator */
+.components-panel__body-title .animation-status-indicator {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+/* Very subtle animation indicator - no positioning or layout changes */
+.block-editor-block-list__block[data-has-animation=true] {
+    outline: 1px solid rgba(255,165,0,.2);
+    outline-offset: -1px;
+}
+
+.block-editor-block-list__block[data-has-animation=true]:hover {
+    outline: 1px solid rgba(255,165,0,.3);
+}
+
+.block-editor-block-list__block[data-has-animation=true].is-selected {
+    outline: 1px solid rgba(255,165,0,.5);
+}

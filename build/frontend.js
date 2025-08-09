@@ -1,0 +1,7 @@
+/*!
+ * Core Block Animations - Frontend (Minified)
+ * @package CoreBlockAnimations
+ * @license GPL-2.0-or-later
+ * @see /src/frontend.js for readable source
+ */
+(()=>{'use strict';if(window.matchMedia?.('(prefers-reduced-motion: reduce)').matches)return document.querySelectorAll('.cba-anim').forEach(e=>e.classList.add('cba-no-motion')),void 0;let a;const b=(e,t=false)=>{const n=parseInt(e.getAttribute('data-anim-duration'))||600,o=parseInt(e.getAttribute('data-anim-delay'))||0,r=e.getAttribute('data-anim-easing')||'ease';e.style.setProperty('--cba-duration',n+'ms'),e.style.setProperty('--cba-easing',r),e.style.setProperty('--cba-delay',(t?0:o)+'ms'),setTimeout(()=>e.classList.add('is-animated'),t?50:10),a?.unobserve(e)},c=e=>e.forEach(e=>e.isIntersecting&&b(e.target)),d=()=>{const e=document.querySelectorAll('.cba-anim:not(.is-animated)');if(!e.length)return;a=new IntersectionObserver(c,{root:null,rootMargin:'0px 0px -10% 0px',threshold:0.1});const t=[],n=[];e.forEach(e=>{const o=e.getBoundingClientRect(),r=window.innerHeight;o.top<0.9*r&&o.bottom>0?t.push(e):(n.push(e),a.observe(e))}),t.length&&(t.sort((e,t)=>e.getBoundingClientRect().top-t.getBoundingClientRect().top),t.forEach((e,t)=>setTimeout(()=>b(e,true),50*t)))};'loading'===document.readyState?document.addEventListener('DOMContentLoaded',d):d();const e=new MutationObserver(e=>{for(const t of e)for(const e of t.addedNodes)if(1===e.nodeType&&(e.classList?.contains('cba-anim')||e.querySelector?.('.cba-anim')))return void setTimeout(d,100)});e.observe(document.body,{childList:!0,subtree:!0})})();

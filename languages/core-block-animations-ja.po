@@ -1,0 +1,146 @@
+# Japanese translation for Core Block Animations
+# Copyright (C) 2024 Core Block Animations
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Core Block Animations 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/core-block-animations\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01T00:00:00+00:00\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: core-block-animations\n"
+
+#. translators: Panel title
+msgid "Animation"
+msgstr "アニメーション"
+
+#. translators: Toggle control label
+msgid "Enable Animation"
+msgstr "アニメーションを有効化"
+
+#. translators: Help text when animation is enabled
+msgid "Animation will play when the block enters the viewport."
+msgstr "ブロックが表示領域に入るとアニメーションが実行されます。"
+
+#. translators: Help text when animation is disabled
+msgid "Enable to add entrance animation to this block."
+msgstr "このブロックにエントランスアニメーションを追加できます。"
+
+#. translators: Select control label
+msgid "Animation Type"
+msgstr "アニメーション種類"
+
+#. translators: Help text for animation type
+msgid "Choose how the block animates into view."
+msgstr "ブロックがどのようにアニメーション表示されるかを選択してください。"
+
+#. translators: Animation type option
+msgid "Fade"
+msgstr "フェード"
+
+#. translators: Animation type option
+msgid "Slide Up"
+msgstr "下から上へ"
+
+#. translators: Animation type option
+msgid "Slide Left"
+msgstr "右から左へ"
+
+#. translators: Animation type option
+msgid "Zoom In"
+msgstr "ズームイン"
+
+#. translators: Animation type option
+msgid "Rotate In"
+msgstr "回転しながら登場"
+
+#. translators: Range control label
+msgid "Duration (ms)"
+msgstr "長さ (ミリ秒)"
+
+#. translators: Help text for duration
+msgid "How long the animation takes to complete."
+msgstr "アニメーションの完了にかかる時間です。"
+
+#. translators: Range control label
+msgid "Delay (ms)"
+msgstr "遅延 (ミリ秒)"
+
+#. translators: Help text for delay
+msgid "Wait time before the animation starts."
+msgstr "アニメーション開始前の待機時間です。"
+
+#. translators: Select control label
+msgid "Easing"
+msgstr "イージング"
+
+#. translators: Help text for easing
+msgid "The timing function for the animation."
+msgstr "アニメーションのタイミング関数です。"
+
+#. translators: Easing option
+msgid "Ease"
+msgstr "イーズ"
+
+#. translators: Easing option
+msgid "Ease In"
+msgstr "イーズイン"
+
+#. translators: Easing option
+msgid "Ease Out"
+msgstr "イーズアウト"
+
+#. translators: Easing option
+msgid "Ease In Out"
+msgstr "イーズインアウト"
+
+#. translators: Easing option
+msgid "Linear"
+msgstr "リニア"
+
+#. translators: Toggle control label
+msgid "Enable Stagger"
+msgstr "段階アニメーション有効化"
+
+#. translators: Help text when stagger is enabled
+msgid "Child blocks will animate with incremental delays."
+msgstr "子ブロックが段階的な遅延でアニメーションします。"
+
+#. translators: Help text when stagger is disabled
+msgid "Enable to stagger animations for child blocks."
+msgstr "子ブロックの段階的アニメーションを有効化できます。"
+
+#. translators: Range control label
+msgid "Stagger Delay (ms)"
+msgstr "段階遅延 (ミリ秒)"
+
+#. translators: Help text for stagger delay
+msgid "Time between each child animation."
+msgstr "各子アニメーション間の時間です。"
+
+#. translators: Toolbar button label
+msgid "Toggle Animation"
+msgstr "アニメーション切り替え"
+
+#. translators: New easing options
+msgid "Bounce Out"
+msgstr "バウンスアウト"
+
+msgid "Back Out"
+msgstr "バックアウト"
+
+msgid "Elastic Out"
+msgstr "エラスティックアウト"
+
+msgid "Circ Out"
+msgstr "サーキュラーアウト"
+
+msgid "Quart Out"
+msgstr "クォートアウト"

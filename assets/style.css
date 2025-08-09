@@ -1,0 +1,7 @@
+/*!
+ * Core Block Animations - Frontend Styles (Minified)
+ * @package CoreBlockAnimations
+ * @license GPL-2.0-or-later
+ * @see /src/style.css for readable source
+ */
+.cba-anim{transition-property:opacity,transform;transition-duration:var(--cba-duration,600ms);transition-delay:var(--cba-delay,0ms);transition-timing-function:var(--cba-easing,ease);will-change:opacity,transform;opacity:1;transform:none}.cba-anim[data-anim=fade]{opacity:0}.cba-anim[data-anim=fade].is-animated{opacity:1}.cba-anim[data-anim=slide-up]{opacity:0;transform:translateY(30px)}.cba-anim[data-anim=slide-up].is-animated{opacity:1;transform:translateY(0)}.cba-anim[data-anim=slide-left]{opacity:0;transform:translateX(30px)}.cba-anim[data-anim=slide-left].is-animated{opacity:1;transform:translateX(0)}.cba-anim[data-anim=zoom-in]{opacity:0;transform:scale(.8)}.cba-anim[data-anim=zoom-in].is-animated{opacity:1;transform:scale(1)}.cba-anim[data-anim=rotate-in]{opacity:0;transform:rotate(-10deg) scale(.8)}.cba-anim[data-anim=rotate-in].is-animated{opacity:1;transform:rotate(0) scale(1)}.cba-anim:not([data-anim]){opacity:1;transform:none}@media (prefers-reduced-motion:reduce){.cba-anim,.cba-anim.is-animated{transition:none!important;animation:none!important;opacity:1!important;transform:none!important}}.cba-no-motion{opacity:1!important;transform:none!important;transition:none!important;animation:none!important}.cba-anim.is-animated{will-change:auto}

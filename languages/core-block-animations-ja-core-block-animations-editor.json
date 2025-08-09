@@ -1,0 +1,110 @@
+{
+    "domain": "core-block-animations",
+    "locale_data": {
+        "core-block-animations": {
+            "": {
+                "domain": "core-block-animations",
+                "lang": "ja"
+            },
+            "Animation": [
+                "アニメーション"
+            ],
+            "Enable Animation": [
+                "アニメーションを有効化"
+            ],
+            "Animation will play when the block enters the viewport.": [
+                "ブロックが表示領域に入るとアニメーションが実行されます。"
+            ],
+            "Enable to add entrance animation to this block.": [
+                "このブロックにエントランスアニメーションを追加できます。"
+            ],
+            "Animation Type": [
+                "アニメーション種類"
+            ],
+            "Choose how the block animates into view.": [
+                "ブロックがどのようにアニメーション表示されるかを選択してください。"
+            ],
+            "Fade": [
+                "フェード"
+            ],
+            "Slide Up": [
+                "下から上へ"
+            ],
+            "Slide Left": [
+                "右から左へ"
+            ],
+            "Zoom In": [
+                "ズームイン"
+            ],
+            "Rotate In": [
+                "回転しながら登場"
+            ],
+            "Duration (ms)": [
+                "長さ (ミリ秒)"
+            ],
+            "How long the animation takes to complete.": [
+                "アニメーションの完了にかかる時間です。"
+            ],
+            "Delay (ms)": [
+                "遅延 (ミリ秒)"
+            ],
+            "Wait time before the animation starts.": [
+                "アニメーション開始前の待機時間です。"
+            ],
+            "Easing": [
+                "イージング"
+            ],
+            "The timing function for the animation.": [
+                "アニメーションのタイミング関数です。"
+            ],
+            "Ease": [
+                "イーズ"
+            ],
+            "Ease In": [
+                "イーズイン"
+            ],
+            "Ease Out": [
+                "イーズアウト"
+            ],
+            "Ease In Out": [
+                "イーズインアウト"
+            ],
+            "Linear": [
+                "リニア"
+            ],
+            "Enable Stagger": [
+                "段階アニメーション有効化"
+            ],
+            "Child blocks will animate with incremental delays.": [
+                "子ブロックが段階的な遅延でアニメーションします。"
+            ],
+            "Enable to stagger animations for child blocks.": [
+                "子ブロックの段階的アニメーションを有効化できます。"
+            ],
+            "Stagger Delay (ms)": [
+                "段階遅延 (ミリ秒)"
+            ],
+            "Time between each child animation.": [
+                "各子アニメーション間の時間です。"
+            ],
+            "Toggle Animation": [
+                "アニメーション切り替え"
+            ],
+            "Bounce Out": [
+                "バウンスアウト"
+            ],
+            "Back Out": [
+                "バックアウト"
+            ],
+            "Elastic Out": [
+                "エラスティックアウト"
+            ],
+            "Circ Out": [
+                "サーキュラーアウト"
+            ],
+            "Quart Out": [
+                "クォートアウト"
+            ]
+        }
+    }
+}
