@@ -1,5 +1,5 @@
 === Core Block Animations ===
-Contributors: photoshopvipteam
+Contributors: PhotsohopVIP Team
 Tags: animations, blocks, gutenberg, effects, css
 Requires at least: 6.0
 Tested up to: 6.8
